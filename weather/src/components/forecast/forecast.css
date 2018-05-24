@@ -1,0 +1,90 @@
+.main {
+    text-align: center;
+    margin: auto;
+    font-family: 'Abel', sans-serif;
+}
+
+#search {
+    padding-top: 2%;
+}
+
+#search input {
+    width: 25%;
+    height: 57px;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.textclass {
+    color:#fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+.fivedayforecast {
+    display: inline-flex;
+    width: 100vw;
+    height: 30vh;
+}
+
+.forecast {
+    width: 20%;
+    border-style: groove;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+button {
+    width: 10%;
+    height: 3em;
+    margin: 10px;
+    color: #ffffff;
+    background: #28C9FF;
+    border: none;
+    position: relative;
+    font-size: 1.2em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+}
+
+button:hover {
+    background: #fff;
+    color: #131e26;
+}
+
+button:before,
+button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #131e26;
+    transition: 400ms ease all;
+}
+
+button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+button:hover:before,
+button:hover:after {
+    width: 100%;
+    transition: 700ms ease all;
+}
+
+
+
+
