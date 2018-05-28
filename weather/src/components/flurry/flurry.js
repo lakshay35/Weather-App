@@ -6,10 +6,10 @@ export default class Flurry extends Component {
             < div className="icon flurries" >
                 <div className="cloud" >
                 </div>
-                <div class="snow" >
-                    <div class="flake" >
+                <div className="snow" >
+                    <div className="flake" >
                     </div>
-                    <div class="flake" >
+                    <div className="flake" >
                     </div>
                 </div>
             </div>

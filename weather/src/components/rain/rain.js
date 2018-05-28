@@ -4,9 +4,9 @@ export default class Rain extends Component {
     render() {
         return (
             < div className="icon rainy" >
-                <div class="cloud" >
+                <div className="cloud" >
                 </div>
-                <div class="rain" >
+                <div className="rain" >
                 </div>
             </div>
         )

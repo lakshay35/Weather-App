@@ -8,6 +8,19 @@
     padding-top: 2%;
 }
 
+.mainlabels {
+    width: 25%;
+    float: left;
+}
+.labels {
+    width: 100%;
+}
+
+.inlabels {
+    width: 50%;
+    float: left;
+}
+
 #search input {
     width: 25%;
     height: 57px;
@@ -40,8 +53,8 @@ h1 {
     float: left;
 }
 
-button {
-    width: 10%;
+#submitbutton {
+    text-align: center;
     height: 3em;
     margin: 10px;
     color: #ffffff;
@@ -55,13 +68,13 @@ button {
     outline: none;
 }
 
-button:hover {
+#submitbutton:hover {
     background: #fff;
     color: #131e26;
 }
 
-button:before,
-button:after {
+#submitbutton:before,
+#submitbutton:after {
     content: '';
     position: absolute;
     top: 0;
@@ -72,15 +85,15 @@ button:after {
     transition: 400ms ease all;
 }
 
-button:after {
+#submitbutton:after {
     right: inherit;
     top: inherit;
     left: 0;
     bottom: 0;
 }
 
-button:hover:before,
-button:hover:after {
+#submitbutton:hover:before,
+#submitbutton:hover:after {
     width: 100%;
     transition: 700ms ease all;
 }
