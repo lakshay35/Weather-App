@@ -13,7 +13,7 @@ export default class Forecast extends Component {
   constructor() {
     super()
     this.state = {
-      apikey: \\API KEY FOR OPENWEATHER API GOES HERE,
+      apikey: '3154668c3b544540b0e1f035564d8e69',
       currentweather: '',
       currentcity: '',
       labels: {
